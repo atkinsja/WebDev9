@@ -1,0 +1,89 @@
+html(xmlns='http://www.w3.org/1999/xhtml')
+  head
+    meta(name='generator', content='HTML Tidy for Linux (vers 25 March 2009), see www.w3.org')
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width,initial-scale=1,user-scalable=yes')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Lato', type='text/css')
+    link(rel='stylesheet', href='../css/reset.css', type='text/css')
+    link(rel='stylesheet', href='../css/style.css', type='text/css')
+    script(src='../scripts/jquery-latest.min.js')
+    script(src='../scripts/jquery.validate.min.js')
+    title BrightIdeas
+  body
+    .container
+      .header
+        .item.header_left
+          h1.heading
+            a(href='index.html') BrightIdeas
+        .item.header_right
+          a(href='signup.html') Sign Up!
+          | |
+          a(href='faq.html') FAQ
+          | |
+          a(href='#') Support
+      .content-left
+        h2 Sign Up!
+        .signUpContainer
+          form(action='/signup', method='POST')
+            p
+              | First name:
+              span= f
+              br
+              | Last name:
+              span= l
+              br
+              | Address:
+              span= a
+              br
+              | City:
+              span= c
+              br
+              | State:
+              span= s
+              br
+              | Zip:
+              span= z
+              br
+              | E-mail address:
+              span= e
+              br
+            hr
+            p
+              | Have you ever paid for ideas?
+              span= pans
+            p
+              | Where do you usually shop for ideas?
+              span= ians
+            p
+              | Have you ever purchased ideas?
+              span= purans
+            p
+              | How does using other peoples ideas compare to using/creating your own?
+              span= minebetter
+              br
+      .item.content-right
+        img#blinking_image(src='../images/brightIdea.png', alt='an image of a lightbulb')
+      .footer
+        .item.footer_left
+          ul
+            li
+              h4 Contact Us
+            li BrightIdeas
+            li 66 Sixth Street
+            li Amherst, NY 12345
+        .item.footer_right
+          ul
+            li Sitemap
+            li
+              a(href='index.html') Home
+            li
+              a(href='#') About Us
+            li
+              a(href='#') Privacy
+            li
+              a(href='#') Support
+            li
+              a(href='faq.html') FAQ
+            li
+              a(href='#') Careers
+    script(src='../scripts/form.js')

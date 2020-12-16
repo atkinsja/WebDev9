@@ -1,0 +1,112 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1,user-scalable=yes" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" type=
+  "text/css" />
+  <link rel="stylesheet" href="../css/reset.css" type="text/css" />
+  <link rel="stylesheet" href="../css/style.css" type="text/css" />
+  <script src="../scripts/jquery-latest.min.js"></script>
+  <script src="../scripts/jquery.validate.min.js"></script>
+
+  <title>BrightIdeas</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="item header_left">
+        <h1 class="heading"><a href="index.html"> BrightIdeas </a></h1>
+      </div>
+
+      <div class="item header_right">
+        <a href="signup.html"> Sign Up! </a> | <a href="faq.html"> FAQ </a> | <a href="#"> Support </a>
+      </div>
+    </div>
+
+    <div class="content-left">
+        <h2>Sign Up!</h2>
+            <div class="signUpContainer">
+                
+                <form action="/signup" method="POST">
+                    <p>
+                    First name: <input type="text" name="firstname">
+                    <span class=ast> *</span> Last name: <input type="text" name="lastname" class="reqd"><br />
+                    Address: <input type="text" name="address"><br />
+                    City: <input type="text" name="city"><br />
+                    State: <input type="text" name="state"><br />
+                    Zip: <input type="text" name="zip"><br />
+                    <span class=ast>*</span>E-mail address: <input type="text" name="emailEntry" class="reqd email"><br />
+                    </p>
+                    <hr />
+
+                    <p>Have you ever paid for ideas?<input type="radio" name="paid" value="yes"> Yes<input type = "radio" name="paid" value="no"> No</p>
+                    <p>Where do you usually shop for ideas?
+                        <select name="shop">
+                            <option value="brain">My own brain</option>
+                            <option value="people">Other people</option>
+                            <option value="internet">The internet</option>
+                        </select>
+                    </p>
+                    <p>Have you ever purchased ideas?<input type="radio" name="purchased" value="yes"> Yes<input type = "radio" name= "purchased" value="no"> No</p>
+                    <p>How does using other peoples ideas compare to using/creating your own?<br /></p>
+                    <textarea name="text1" rows="6" cols="78"></textarea>
+                    <p>
+                    <input type="submit" value="Submit" class = "_submit" />
+                    <input type="reset" value="Reset" class = "_reset" />
+                    </p>
+                    <p><span class=ast>*</span> indicates a required field. </p>
+
+
+                </form>
+            </div>
+
+
+    </div>
+
+    <div class="item content-right"><img id="blinking_image" src="../images/brightIdea.png"
+    alt="an image of a lightbulb" /></div>
+
+    <div class="footer">
+      <div class="item footer_left">
+        <ul>
+          <li>
+            <h4>Contact Us</h4>
+          </li>
+
+          <li>BrightIdeas</li>
+
+          <li>66 Sixth Street</li>
+
+          <li>Amherst, NY 12345</li>
+        </ul>
+      </div>
+
+      <div class="item footer_right">
+        <ul>
+          <li>Sitemap</li>
+
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="#">About Us</a></li>
+
+          <li><a href="#">Privacy</a></li>
+
+          <li><a href="#">Support</a></li>
+
+          <li><a href="faq.html">FAQ</a></li>
+
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="../scripts/form.js"></script>
+</body>
+</html>
+
+
+        
